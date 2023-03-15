@@ -21,7 +21,7 @@ print(cep1) # printando o dicionário
 
 # extração de dados do dicionário
 print('---- endereço ----')
-print(f"rua: {cep1['street']}")
+print(f"rua: {cep1['street']}") 
 print(f"cidade: {cep1['city']}")
 print(f"UF: {cep1['state']}")
 print(f"CEP: {cep1['cep']}")
